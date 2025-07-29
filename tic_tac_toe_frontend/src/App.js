@@ -116,11 +116,7 @@ function App() {
               onClick={() => handleClick(i)}
               tabIndex="0"
             >
-              {val === 'X' ? (
-                <span style={{ color: '#e53935' }}>{val}</span>
-              ) : (
-                val
-              )}
+              {val}
             </button>
           );
         })}
